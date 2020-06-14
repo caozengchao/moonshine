@@ -1,0 +1,244 @@
+/*
+* @Author: caozengchao
+* @Date:   2020-06-06 09:18:21
+* @Last Modified by:   caozengchao
+* @Last Modified time: 2020-06-14 15:34:45
+*/
+*{
+	margin:0;padding:0;
+}
+
+li{
+	list-style:none;
+}
+
+img{
+	vertical-align:top;border:none
+}
+a{
+
+text-decoration:none;
+
+}
+a:hover{
+
+text-decoration:none;
+
+}
+body{
+	background: #f3f5f7;
+}
+.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.the-o{
+	height: 50px;
+	width: 100%;
+}
+.the-o .kuan{
+	width: 1200px;
+	margin: 0 auto;
+}
+.the-o a{
+	color: #ada;
+	line-height: 50px;
+	display: inline-block;
+	width: 50px; 
+	float: right 
+}
+.the-o form{
+	width: 200px;
+	float: right;
+
+}
+.the-o form .tijiao{
+	float: right;
+}
+.the-one{
+	background: #fff;
+	height: 122px;
+}
+.the-one .one-head{
+	height: 120px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.one-head .logo{
+	margin-left: 10px;
+	height: 120px;
+	float: left;
+}
+.one-head .cen{
+	margin-top: 15px;
+	width: 420px;
+	height: 90px;
+	margin-left: 150px;
+	float: left;
+}
+.one-head .biao{
+	height: 70px;
+	float: right;
+	margin-top: 50px;
+}
+.one-head .biao .search{
+	float: left;
+	height:30px;
+	padding: 0;
+	width: 200px
+}
+.one-head .biao .submit{
+	float: left;
+	width: 40px;
+	height: 33px;
+	border: 1px solid #f00;
+	background: rgba(255,0,0,1) url(imgs/soulogo.png) no-repeat center center;
+}
+.the-two{
+	background: rgba(150,40,30,0.3);
+}
+.the-two .type{
+	width: 1200px;
+	margin: 0 auto;
+}
+.the-two .type ul{
+	width: 100%;
+	height: 30px;
+}
+.the-two .type ul li{
+	float: left;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align:center;
+}
+.the-two .type ul li a{
+	color: #fff;
+}
+.the-two .type ul li a:hover{
+	color: rgba(200,100,0,0.7)
+}
+.the-three{
+background: rgba(0,110,200,0.1)
+}
+.the-three .banner{
+	height: 500px;
+	background: url(imgs/banner2.jpg) no-repeat center right;
+	width: 1200px;
+	margin: 0 auto;
+	background-size: 1000px 500px;
+}
+.the-three .banner{
+	position: relative;
+}
+.the-three .banner img{
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	left: 200px;
+	z-index: 0;
+}
+.the-three .banner img:hover{
+	width: 0;
+}
+.the-three .banner ul{
+	position: absolute;
+	left: 40px;
+	top: 0;
+	padding-top: 10px;
+	height: 490px;
+	width: 160px;
+	background: rgba(255,200,50,0.1);
+}
+.the-three .banner ul li{
+	width: 160px;
+	line-height: 30px;
+	height: 30px;
+}
+.the-three .banner ul li a{
+	width: 160px;
+	height: 30px;
+	display: block;
+	color: rgba(200,100,0,0.9)
+}
+.the-three .banner ul li a:hover{
+	background: #FFF;
+	color: #fa0
+}
+.the-four .chese{
+	margin: 0 auto;
+	height: 370px;
+	width: 1200px;
+	background: url(imgs/four.png) no-repeat center right;
+	background-size:1180px 370px;
+}
+.the-four .chese a{
+	color: rgba(0, 0, 0, 0);
+	display: inline-block; 
+	width: 9.7583333%;
+	height: 33.1531532%;
+	line-height: 33.1531532%;
+	float: right;
+}
+.the-four .chese a span:hover{
+	color: #fff;
+	background: red;
+}
+.the-four .chese a:hover{
+	text-align: center;
+	color: rgba(0,255, 255, 1);
+	background: rgba(0,0,0,0.5)
+}
+.the-four .chese p{
+	width: 100%;
+	height: 1px;
+	float: right;
+
+}
+.the-five{
+	height: 260px;
+	background: rgba(0, 0, 0, 0.5)
+}
+.the-four .chese div{
+	width: 1px;
+	height:33.1531532%;
+	float: right;
+}
+.the-five .last{
+	padding-left: 50px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.the-five .last div{
+	margin-top: 40px;
+	width: 230px;
+	float: left;
+}
+.the-five .last div li{
+	color: #fff;
+	width: 200px;
+	height: 30px;
+	line-height: 30px
+}
+.the-five .last div li a{
+	font-size: 12px;
+	color: #fff
+}
+.the-five .last .ban5 img{
+	width: 150px;
+	height: 150px;
+}
+.banquan{
+	height: 150px;
+	background: rgba(0, 0, 0, 1)
+}
+.banquan .o{
+	width: 1200px;
+	margin: 0 auto;
+}
+.banquan .o li{
+	text-align: center;
+	color: #fff;
+}
